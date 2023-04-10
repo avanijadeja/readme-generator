@@ -19,7 +19,7 @@ const questions = () => {
             {
                 type: "input",
                 message: 'please provide a step-by-step description of how to install your project:',
-                name: 'Install',
+                name: 'install',
             },
             {
                 type: "input",
@@ -107,7 +107,8 @@ This project is using the ${response.license} license. For futher information, p
 Please reach out with any questions you may have!
 Here are some ways you can connect with me :
 Github: [${response.username}](https://github.com/${response.username})
-Email: <${response.email}>`;
+Email: <${response.email}>
+`;
 
 
 //function runs all the questions, then takes the response and writes a readme file.
