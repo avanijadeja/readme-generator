@@ -116,3 +116,6 @@ function init(){
     .then((response) => fs.writeFile('readme.md', createReadme(response), (err) => 
     err ? console.error(err) : console.log('Readme file was successfully created')));
 }
+
+// Function call to initialize app
+init();
