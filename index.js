@@ -109,3 +109,10 @@ Here are some ways you can connect with me :
 Github: [${response.username}](https://github.com/${response.username})
 Email: <${response.email}>`;
 
+
+//function runs all the questions, then takes the response and writes a readme file.
+function init(){
+    questions()
+    .then((response) => fs.writeFile('readme.md', createReadme(response), (err) => 
+    err ? console.error(err) : console.log('Readme file was successfully created')));
+}
