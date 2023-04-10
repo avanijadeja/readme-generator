@@ -1,8 +1,8 @@
 
-# aa
-[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+# Readme Generator.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## description
-aa
+Generator readme.md file from commandline application.
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -13,15 +13,15 @@ aa
 ## Installation
 undefined
 ## usage
-aa
+Must have terminal to use.
 ## Contributing
-aa
+Avani Jadeja.
 ## Tests
-aa
+Coming soon....
 ## License
-This project is using the BSD 3-Clause License license. For futher information, please visit [here](https://choosealicense.com/license/).
+This project is using the The MIT License license. For futher information, please visit [here](https://choosealicense.com/license/).
 ## Questions
 Please reach out with any questions you may have!
 Here are some ways you can connect with me :
-Github: [aaa](https://github.com/aaa)
-Email: <aaa>
+Github: [avanijadeja](https://github.com/avanijadeja)
+Email: <avani.jadeja@gmail.com>

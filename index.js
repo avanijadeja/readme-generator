@@ -39,7 +39,7 @@ const questions = () => {
             {
                 type: "list",
                 message: 'Please select a license from the list',
-                choices: ['Apache 2.0 License', 'Boost Software License 1.0', 'BSD 3-Clause License', 'Eclipse Public License 1.0","The MIT License', 'Mozilla Public License 2.0'],
+                choices: ['Apache 2.0 License', 'Boost Software License 1.0', 'BSD 3-Clause License', 'Eclipse Public License 1.0','The MIT License', 'Mozilla Public License 2.0'],
                 name: 'license',
             },
             {
