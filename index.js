@@ -1,58 +1,58 @@
 // add require modules
-const fs= require('fs');
+const fs = require('fs');
 const inquirer = require("inquirer");
 
 //function that will run questions in the terminal
 const questions = () => {
     return inquirer
-    .prompt([
-        {
-            type : "input",
-            message : 'what is the title of your project?',
-            name: 'title',
-        },
-        {
-            type : "input",
-            message : 'please provide a brief description of your project:',
-            name: 'description',
-        },
-        {
-            type : "input",
-            message : 'please provide a step-by-step description of how to install your project:',
-            name: 'Install',
-        },
-        {
-            type : "input",
-            message : "Please provide directions and examples for use:",
-            name: 'usage',
-        },
-        {
-            type : "input",
-            message : 'Please list contributors to this project, if any:',
-            name: 'credits',
-        },
-        {
-            type : "input",
-            message : 'please write any tests for your project:',
-            name: 'test',
-        },
-        {
-            type : "list",
-            message : 'Please select a license from the list',
-            choices: ['Apache 2.0 License','Boost Software License 1.0','BSD 3-Clause License','Eclipse Public License 1.0","The MIT License','Mozilla Public License 2.0'],
-            name: 'license',
-        },
-        {
-            type : "input",
-            message : 'Please enter your github username:',
-            name: 'username',
-        },
-        {
-            type : "input",
-            message : 'Please enter your email address:',
-            name: 'email',
-        },
-    ])
+        .prompt([
+            {
+                type: "input",
+                message: 'what is the title of your project?',
+                name: 'title',
+            },
+            {
+                type: "input",
+                message: 'please provide a brief description of your project:',
+                name: 'description',
+            },
+            {
+                type: "input",
+                message: 'please provide a step-by-step description of how to install your project:',
+                name: 'Install',
+            },
+            {
+                type: "input",
+                message: "Please provide directions and examples for use:",
+                name: 'usage',
+            },
+            {
+                type: "input",
+                message: 'Please list contributors to this project, if any:',
+                name: 'credits',
+            },
+            {
+                type: "input",
+                message: 'please write any tests for your project:',
+                name: 'test',
+            },
+            {
+                type: "list",
+                message: 'Please select a license from the list',
+                choices: ['Apache 2.0 License', 'Boost Software License 1.0', 'BSD 3-Clause License', 'Eclipse Public License 1.0","The MIT License', 'Mozilla Public License 2.0'],
+                name: 'license',
+            },
+            {
+                type: "input",
+                message: 'Please enter your github username:',
+                name: 'username',
+            },
+            {
+                type: "input",
+                message: 'Please enter your email address:',
+                name: 'email',
+            },
+        ])
 }
 
 // function that takes the license response and pulls the corresponding license badge
@@ -78,5 +78,34 @@ const badgeLicense = (response) => {
         badge = "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
     }
     return badge;
-} 
+}
+
+//function that creates the content for the readme file using template literal
+const createReadme = (response) => `
+# ${response.title}
+${badgeLicense(response)}
+## description
+${response.description}
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [License](#license)
+- [Questions](#questions)
+## Installation
+${response.install}
+## usage
+${response.usage}
+## Contributing
+${response.credits}
+## Tests
+${response.test}
+## License
+This project is using the ${response.license} license. For futher information, please visit [here](https://choosealicense.com/license/).
+## Questions
+Please reach out with any questions you may have!
+Here are some ways you can connect with me :
+Github: [${response.username}](https://github.com/${response.username})
+Email: <${response.email}>`;
 
