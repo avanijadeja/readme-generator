@@ -26,9 +26,12 @@ Must have terminal to use.
 
 Here I attached screenshot of sample README.md file and some links.
 
-![screenshot of sample README.md file](./Develop/Assets/README.png)
 
 ![screencastify video .gif](./Develop/Assets/README_VIDEO.gif)
+
+
+
+![screenshot of readme file](./Develop/Assets/README.png)
 
 A walkthrough video demonstrating the functionality of the application- https://drive.google.com/file/d/1V7k7OBBUua_i1CfZxKfIj0OEr-QatrQ1/view?usp=sharing
 
@@ -43,3 +46,7 @@ This project is using the The MIT License license. For further information, plea
 ## Badges
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+
+
+[def]: ./Develop/Assets/README.png
+[def2]: ./Develop/Assets/README.png
