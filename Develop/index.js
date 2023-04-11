@@ -102,7 +102,7 @@ ${response.credits}
 ## Tests
 ${response.test}
 ## License
-This project is using the ${response.license} license. For futher information, please visit [here](https://choosealicense.com/license/).
+This project is using the ${response.license} license.
 ## Questions
 Please reach out with any questions you may have!
 Here are some ways you can connect with me :
