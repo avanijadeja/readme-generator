@@ -31,7 +31,7 @@ Here I attached screenshot of sample README.md file and some links.
 
 
 
-![screenshot of readme file](./Develop/Assets/README.png)
+![screenshot of readme file][def3]
 
 A walkthrough video demonstrating the functionality of the application- https://drive.google.com/file/d/1V7k7OBBUua_i1CfZxKfIj0OEr-QatrQ1/view?usp=sharing
 
@@ -50,3 +50,4 @@ This project is using the The MIT License license. For further information, plea
 
 [def]: ./Develop/Assets/README.png
 [def2]: ./Develop/Assets/README.png
+[def3]: ./Develop/Assets/README.png
