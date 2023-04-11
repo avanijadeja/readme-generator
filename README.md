@@ -1,4 +1,4 @@
-# Professional README Generator
+# README Generator
 
 ## Description
 When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project.You can quickly and easily generate a README file by using a command-line application to generate one. This allows the project creator to devote more time working on the project.So, In this project I create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.I use inquirer@8.2.4 in this project.
@@ -23,10 +23,14 @@ here I used inquirer module so first open terminal,go to the file where the node
 
 ## usage
 Must have terminal to use.
-![screenshot of sample README.md file]()
-![video of sample README.md file]()
 
-A walkthrough video demonstrating the functionality of the application- https://drive.google.com/file/d/1yvTgNIv3KRAW5JEg1HjI3IrbktsGIz1_/view?usp=sharing
+Here I attached screenshot of sample README.md file and some links.
+
+![screenshot of sample README.md file](./Develop/Assets/README.png)
+
+![screencastify video .gif](./Develop/Assets/README_VIDEO.gif)
+
+A walkthrough video demonstrating the functionality of the application- https://drive.google.com/file/d/1V7k7OBBUua_i1CfZxKfIj0OEr-QatrQ1/view?usp=sharing
 
 The URL of the GitHub repository - https://github.com/avanijadeja/readme-generator
 
