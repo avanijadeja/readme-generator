@@ -26,8 +26,15 @@ Must have terminal to use.
 
 Here I attached some links.
 
+Screenshot of README file.
+<img width="1440" alt="README" src="https://user-images.githubusercontent.com/1708182/231059588-ad4bdd99-7651-4276-b1ee-6c2bc812c8f6.png">
 
+
+
+Screencastify video gif format.
 ![screencastify video .gif](./Develop/Assets/README_VIDEO.gif)
+
+
 
 A walkthrough video demonstrating the functionality of the application- https://drive.google.com/file/d/1V7k7OBBUua_i1CfZxKfIj0OEr-QatrQ1/view?usp=sharing
 
