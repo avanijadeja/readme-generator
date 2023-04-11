@@ -24,14 +24,10 @@ here I used inquirer module so first open terminal,go to the file where the node
 ## usage
 Must have terminal to use.
 
-Here I attached screenshot of sample README.md file and some links.
+Here I attached some links.
 
 
 ![screencastify video .gif](./Develop/Assets/README_VIDEO.gif)
-
-
-
-![screenshot of readme file][def3]
 
 A walkthrough video demonstrating the functionality of the application- https://drive.google.com/file/d/1V7k7OBBUua_i1CfZxKfIj0OEr-QatrQ1/view?usp=sharing
 
