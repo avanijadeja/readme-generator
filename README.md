@@ -49,8 +49,3 @@ This project is using the The MIT License license. For further information, plea
 ## Badges
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-
-
-[def]: ./Develop/Assets/README.png
-[def2]: ./Develop/Assets/README.png
-[def3]: ./Develop/Assets/README.png
